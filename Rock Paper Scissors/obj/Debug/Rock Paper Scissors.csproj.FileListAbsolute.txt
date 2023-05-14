@@ -18,3 +18,17 @@ C:\Users\Mi200\Downloads\Rock-paper-scissors-game-in-windows-form-main\Rock-pape
 C:\Users\Mi200\Downloads\Rock-paper-scissors-game-in-windows-form-main\Rock-paper-scissors-game-in-windows-form-main\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CoreCompileInputs.cache
 C:\Users\Mi200\Downloads\Rock-paper-scissors-game-in-windows-form-main\Rock-paper-scissors-game-in-windows-form-main\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.exe
 C:\Users\Mi200\Downloads\Rock-paper-scissors-game-in-windows-form-main\Rock-paper-scissors-game-in-windows-form-main\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe.config
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.pdb
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\bin\Debug\ja\Rock Paper Scissors.resources.dll
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.AssemblyReference.cache
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.SuggestedBindingRedirects.cache
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Form1.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Properties.Resources.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Form1.ja.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.GenerateResource.cache
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CoreCompileInputs.cache
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\ja\Rock Paper Scissors.resources.dll
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.exe
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb

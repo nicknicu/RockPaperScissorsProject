@@ -106,15 +106,15 @@
             // 
             // picCPU
             // 
-            resources.ApplyResources(this.picCPU, "picCPU");
             this.picCPU.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
+            resources.ApplyResources(this.picCPU, "picCPU");
             this.picCPU.Name = "picCPU";
             this.picCPU.TabStop = false;
             // 
             // picPlayer
             // 
-            resources.ApplyResources(this.picPlayer, "picPlayer");
             this.picPlayer.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
+            resources.ApplyResources(this.picPlayer, "picPlayer");
             this.picPlayer.Name = "picPlayer";
             this.picPlayer.TabStop = false;
             this.picPlayer.Click += new System.EventHandler(this.picPlayer_Click);
