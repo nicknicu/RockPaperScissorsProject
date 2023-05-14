@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -228,6 +229,30 @@ namespace Rock_Paper_Scissors
 
         private void picPlayer_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void LangSelector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (LangSelector.SelectedIndex)
+            {
+                case 0:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+                    break;
+                case 1:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ja");
+                    //Thread.CurrentThread.CurrentCulture = new System.Globalization.DateTimeFormatInfo("");
+                    break;
+                case 2:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh");
+                    break;
+                case 3:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es");
+                    break;
+            }
+            this.Controls.Clear();
+
+            InitializeComponent();
 
         }
     }

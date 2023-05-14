@@ -40,9 +40,9 @@
             this.countDownTimer = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.LangSelector = new System.Windows.Forms.ComboBox();
             this.picCPU = new System.Windows.Forms.PictureBox();
             this.picPlayer = new System.Windows.Forms.PictureBox();
-            this.LangSelector = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).BeginInit();
             this.SuspendLayout();
@@ -105,31 +105,32 @@
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
             // 
-            // picCPU
-            // 
-            this.picCPU.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
-            resources.ApplyResources(this.picCPU, "picCPU");
-            this.picCPU.Name = "picCPU";
-            this.picCPU.TabStop = false;
-            // 
-            // picPlayer
-            // 
-            this.picPlayer.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
-            resources.ApplyResources(this.picPlayer, "picPlayer");
-            this.picPlayer.Name = "picPlayer";
-            this.picPlayer.TabStop = false;
-            this.picPlayer.Click += new System.EventHandler(this.picPlayer_Click);
-            // 
             // LangSelector
             // 
+            resources.ApplyResources(this.LangSelector, "LangSelector");
             this.LangSelector.FormattingEnabled = true;
             this.LangSelector.Items.AddRange(new object[] {
             resources.GetString("LangSelector.Items"),
             resources.GetString("LangSelector.Items1"),
             resources.GetString("LangSelector.Items2"),
             resources.GetString("LangSelector.Items3")});
-            resources.ApplyResources(this.LangSelector, "LangSelector");
             this.LangSelector.Name = "LangSelector";
+            this.LangSelector.SelectedIndexChanged += new System.EventHandler(this.LangSelector_SelectedIndexChanged);
+            // 
+            // picCPU
+            // 
+            resources.ApplyResources(this.picCPU, "picCPU");
+            this.picCPU.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
+            this.picCPU.Name = "picCPU";
+            this.picCPU.TabStop = false;
+            // 
+            // picPlayer
+            // 
+            resources.ApplyResources(this.picPlayer, "picPlayer");
+            this.picPlayer.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
+            this.picPlayer.Name = "picPlayer";
+            this.picPlayer.TabStop = false;
+            this.picPlayer.Click += new System.EventHandler(this.picPlayer_Click);
             // 
             // Form1
             // 
