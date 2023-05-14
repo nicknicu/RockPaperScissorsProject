@@ -234,13 +234,13 @@
     <value>423, 311</value>
   </data>
   <data name="roundsText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 24</value>
+    <value>105, 24</value>
   </data>
   <data name="roundsText.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="roundsText.Text" xml:space="preserve">
-    <value>Rounds 3</value>
+    <value>Rounds: 3</value>
   </data>
   <data name="&gt;&gt;roundsText.Name" xml:space="preserve">
     <value>roundsText</value>
