@@ -42,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.picCPU = new System.Windows.Forms.PictureBox();
             this.picPlayer = new System.Windows.Forms.PictureBox();
+            this.LangSelector = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).BeginInit();
             this.SuspendLayout();
@@ -119,10 +120,22 @@
             this.picPlayer.TabStop = false;
             this.picPlayer.Click += new System.EventHandler(this.picPlayer_Click);
             // 
+            // LangSelector
+            // 
+            this.LangSelector.FormattingEnabled = true;
+            this.LangSelector.Items.AddRange(new object[] {
+            resources.GetString("LangSelector.Items"),
+            resources.GetString("LangSelector.Items1"),
+            resources.GetString("LangSelector.Items2"),
+            resources.GetString("LangSelector.Items3")});
+            resources.ApplyResources(this.LangSelector, "LangSelector");
+            this.LangSelector.Name = "LangSelector";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LangSelector);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
@@ -156,6 +169,7 @@
         private System.Windows.Forms.Timer countDownTimer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox LangSelector;
     }
 }
 
