@@ -147,7 +147,7 @@
     <value>61, 20</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Player1</value>
+    <value>プレイヤー</value>
   </data>
   <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -156,12 +156,39 @@
     <value>52, 20</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>CPPU</value>
+    <value>パソコン</value>
   </data>
   <data name="picCPU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="picPlayer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="btnPaper.Text" xml:space="preserve">
+    <value>パー</value>
+  </data>
+  <data name="btnRock.Text" xml:space="preserve">
+    <value>グー</value>
+  </data>
+  <data name="btnScissors.Text" xml:space="preserve">
+    <value>チョキ</value>
+  </data>
+  <data name="Form1.Text" xml:space="preserve">
+    <value>じゃんけんゲーム</value>
+  </data>
+  <data name="LangSelector.Items" xml:space="preserve">
+    <value>英語</value>
+  </data>
+  <data name="LangSelector.Items1" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="LangSelector.Items2" xml:space="preserve">
+    <value>中国語</value>
+  </data>
+  <data name="LangSelector.Items3" xml:space="preserve">
+    <value>スペイン語</value>
+  </data>
+  <data name="LangSelectorLB.Text" xml:space="preserve">
+    <value>言語選択</value>
   </data>
 </root>

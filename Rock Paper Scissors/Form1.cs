@@ -65,7 +65,7 @@ namespace Rock_Paper_Scissors
             timerPerRound -= 1;
 
             txtTime.Text = timerPerRound.ToString();
-            roundsText.Text = "Rounds: " + rounds;
+            roundsText.Text = skin.Rounds + rounds;
 
             if(timerPerRound < 1)
             {
@@ -98,7 +98,7 @@ namespace Rock_Paper_Scissors
                 {
                     if(playerwins > AIwins)
                     {
-                        MessageBox.Show("Player Wins This Game");
+                        MessageBox.Show(skin.PlayerWin);
                     }
                     else
                     {
@@ -199,7 +199,7 @@ namespace Rock_Paper_Scissors
                 return;
             }
 
-            txtMessage.Text = "Player: " + playerwins + " - " + "CPU: " + AIwins;
+            txtMessage.Text = skin.player + playerwins + " - " + skin.Computer + AIwins;
 
             playerChoice = "none";
 
@@ -214,11 +214,11 @@ namespace Rock_Paper_Scissors
             playerwins = 0;
             AIwins = 0;
             rounds = 3;
-            txtMessage.Text = "Player: " + playerwins + " - " + "CPU: " + AIwins;
+            txtMessage.Text = skin.player + playerwins + " - " + skin.Computer + AIwins;
 
             playerChoice = "none";
             txtTime.Text = "5";
-
+            
             countDownTimer.Enabled = true;
 
             picPlayer.Image = Properties.Resources.qq;
@@ -253,6 +253,11 @@ namespace Rock_Paper_Scissors
             this.Controls.Clear();
 
             InitializeComponent();
+
+        }
+
+        private void txtMessage_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -35,7 +35,7 @@
             this.btnScissors = new System.Windows.Forms.Button();
             this.txtMessage = new System.Windows.Forms.Label();
             this.roundsText = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.RestartBtn = new System.Windows.Forms.Button();
             this.txtTime = new System.Windows.Forms.Label();
             this.countDownTimer = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -43,6 +43,7 @@
             this.LangSelector = new System.Windows.Forms.ComboBox();
             this.picCPU = new System.Windows.Forms.PictureBox();
             this.picPlayer = new System.Windows.Forms.PictureBox();
+            this.LangSelectorLB = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picCPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).BeginInit();
             this.SuspendLayout();
@@ -72,18 +73,19 @@
             // 
             resources.ApplyResources(this.txtMessage, "txtMessage");
             this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Click += new System.EventHandler(this.txtMessage_Click);
             // 
             // roundsText
             // 
             resources.ApplyResources(this.roundsText, "roundsText");
             this.roundsText.Name = "roundsText";
             // 
-            // button4
+            // RestartBtn
             // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.restartGame);
+            resources.ApplyResources(this.RestartBtn, "RestartBtn");
+            this.RestartBtn.Name = "RestartBtn";
+            this.RestartBtn.UseVisualStyleBackColor = true;
+            this.RestartBtn.Click += new System.EventHandler(this.restartGame);
             // 
             // txtTime
             // 
@@ -107,39 +109,45 @@
             // 
             // LangSelector
             // 
-            resources.ApplyResources(this.LangSelector, "LangSelector");
             this.LangSelector.FormattingEnabled = true;
             this.LangSelector.Items.AddRange(new object[] {
             resources.GetString("LangSelector.Items"),
             resources.GetString("LangSelector.Items1"),
             resources.GetString("LangSelector.Items2"),
             resources.GetString("LangSelector.Items3")});
+            resources.ApplyResources(this.LangSelector, "LangSelector");
             this.LangSelector.Name = "LangSelector";
             this.LangSelector.SelectedIndexChanged += new System.EventHandler(this.LangSelector_SelectedIndexChanged);
             // 
             // picCPU
             // 
-            resources.ApplyResources(this.picCPU, "picCPU");
             this.picCPU.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
+            resources.ApplyResources(this.picCPU, "picCPU");
             this.picCPU.Name = "picCPU";
             this.picCPU.TabStop = false;
             // 
             // picPlayer
             // 
-            resources.ApplyResources(this.picPlayer, "picPlayer");
             this.picPlayer.Image = global::Rock_Paper_Scissors.Properties.Resources.qq;
+            resources.ApplyResources(this.picPlayer, "picPlayer");
             this.picPlayer.Name = "picPlayer";
             this.picPlayer.TabStop = false;
             this.picPlayer.Click += new System.EventHandler(this.picPlayer_Click);
+            // 
+            // LangSelectorLB
+            // 
+            resources.ApplyResources(this.LangSelectorLB, "LangSelectorLB");
+            this.LangSelectorLB.Name = "LangSelectorLB";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LangSelectorLB);
             this.Controls.Add(this.LangSelector);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.RestartBtn);
             this.Controls.Add(this.roundsText);
             this.Controls.Add(this.txtTime);
             this.Controls.Add(this.txtMessage);
@@ -165,12 +173,13 @@
         private System.Windows.Forms.PictureBox picCPU;
         private System.Windows.Forms.Label txtMessage;
         private System.Windows.Forms.Label roundsText;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button RestartBtn;
         private System.Windows.Forms.Label txtTime;
         private System.Windows.Forms.Timer countDownTimer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox LangSelector;
+        private System.Windows.Forms.Label LangSelectorLB;
     }
 }
 

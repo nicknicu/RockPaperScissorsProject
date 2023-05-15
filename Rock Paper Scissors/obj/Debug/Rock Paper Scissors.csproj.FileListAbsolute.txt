@@ -52,3 +52,5 @@ C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissor
 C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Form1.zh.resources
 C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\es\Rock Paper Scissors.resources.dll
 C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\zh\Rock Paper Scissors.resources.dll
+C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.resources
+C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.ja.resources
