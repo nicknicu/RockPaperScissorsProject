@@ -191,4 +191,13 @@
   <data name="LangSelectorLB.Text" xml:space="preserve">
     <value>言語選択</value>
   </data>
+  <data name="roundsText.Text" xml:space="preserve">
+    <value>Rounds: 3</value>
+  </data>
+  <data name="txtMessage.Text" xml:space="preserve">
+    <value>Player: 0 - CPU: 0</value>
+  </data>
+  <data name="txtTime.Text" xml:space="preserve">
+    <value>time</value>
+  </data>
 </root>

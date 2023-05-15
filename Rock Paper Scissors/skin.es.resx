@@ -117,90 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnRock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnPaper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnScissors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="txtMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="roundsText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="txtTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="picCPU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="picPlayer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnPaper.Text" xml:space="preserve">
-    <value>Papel</value>
-  </data>
-  <data name="btnRock.Text" xml:space="preserve">
-    <value>Piedra</value>
-  </data>
-  <data name="btnScissors.Text" xml:space="preserve">
-    <value>Tijeras</value>
-  </data>
-  <data name="Form1.Text" xml:space="preserve">
-    <value>Piedra, papel o tijeras</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Jugador</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
+  <data name="Computer" xml:space="preserve">
     <value>CPU</value>
   </data>
-  <data name="LangSelector.Items" xml:space="preserve">
-    <value>Inglés</value>
+  <data name="CPUWin" xml:space="preserve">
+    <value>CPU gana la ronda</value>
   </data>
-  <data name="LangSelector.Items1" xml:space="preserve">
-    <value>Japonés</value>
+  <data name="draw" xml:space="preserve">
+    <value>Empate</value>
   </data>
-  <data name="LangSelector.Items2" xml:space="preserve">
-    <value>Chino</value>
+  <data name="player" xml:space="preserve">
+    <value>Jugador </value>
   </data>
-  <data name="LangSelector.Items3" xml:space="preserve">
-    <value>Español</value>
+  <data name="PlayerWin" xml:space="preserve">
+    <value>El jugador gana la ronda</value>
   </data>
-  <data name="LangSelectorLB.Text" xml:space="preserve">
-    <value>Language Selector</value>
+  <data name="reason1" xml:space="preserve">
+    <value>Papel cubria piedra</value>
   </data>
-  <data name="RestartBtn.Text" xml:space="preserve">
-    <value>Reincia</value>
+  <data name="reason2" xml:space="preserve">
+    <value>Piedra rompia tijeras</value>
   </data>
-  <data name="roundsText.Text" xml:space="preserve">
-    <value>Rondas: 3</value>
+  <data name="reason3" xml:space="preserve">
+    <value>Tijeras corta papel</value>
   </data>
-  <data name="txtMessage.Text" xml:space="preserve">
-    <value>Jugador: 0 - CPU: 0</value>
+  <data name="Rounds" xml:space="preserve">
+    <value>Rondas:</value>
   </data>
-  <data name="txtTime.Text" xml:space="preserve">
-    <value>Tiempo</value>
+  <data name="timerprompt" xml:space="preserve">
+    <value>Haz su elección</value>
   </data>
 </root>

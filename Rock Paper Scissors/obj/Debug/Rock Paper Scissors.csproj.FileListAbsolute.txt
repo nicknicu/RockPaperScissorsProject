@@ -54,3 +54,13 @@ C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissor
 C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\zh\Rock Paper Scissors.resources.dll
 C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.resources
 C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.ja.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\bin\Debug\es\Rock Paper Scissors.resources.dll
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\bin\Debug\zh\Rock Paper Scissors.resources.dll
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Form1.es.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Form1.zh.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.zh.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.es.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.ja.resources
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\es\Rock Paper Scissors.resources.dll
+C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\zh\Rock Paper Scissors.resources.dll

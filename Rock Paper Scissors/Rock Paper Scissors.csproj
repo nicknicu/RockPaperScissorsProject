@@ -54,6 +54,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="skin.zh.Designer.cs">
+      <DependentUpon>skin.zh.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="skin.es.Designer.cs">
+      <DependentUpon>skin.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="skin.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -81,6 +91,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="skin.zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>skin.zh.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skin.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>skin.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="skin.ja.resx" />
     <EmbeddedResource Include="skin.resx">
       <Generator>ResXFileCodeGenerator</Generator>

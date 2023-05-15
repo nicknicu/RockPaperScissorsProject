@@ -94,22 +94,11 @@ namespace Rock_Paper_Scissors
                 {
                     checkGame();
                 }
-                else
-                {
-                    if(playerwins > AIwins)
-                    {
-                        MessageBox.Show(skin.PlayerWin);
-                    }
-                    else
-                    {
-                        MessageBox.Show(skin.CPUWin);
-                    }
-
-                    gameover = true;
-                }
-
+               
+              
 
             }
+            
         }
 
 
@@ -125,7 +114,7 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show("CPU Wins, Paper Covers Rocks");
+                MessageBox.Show(skin.CPUWin + skin.reason1);
 
             }
             else if(playerChoice == "scissor" && CPUchoice == "rock")
@@ -134,7 +123,7 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show("CPU Wins, Rock Breaks Scissors");
+                MessageBox.Show(skin.CPUWin + skin.reason2);
             }
             else if (playerChoice == "paper" && CPUchoice == "scissor")
             {
@@ -143,7 +132,7 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show("CPU Wins, Scissor cuts paper");
+                MessageBox.Show(skin.CPUWin + skin.reason3);
 
             }
             else if(playerChoice == "rock" && CPUchoice == "scissor")
@@ -153,7 +142,7 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show("Player Wins, Rock Breaks Scissors");
+                MessageBox.Show(skin.PlayerWin + skin.reason1);
 
             }
             else if (playerChoice == "paper" && CPUchoice == "rock")
@@ -163,7 +152,7 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show("Player Wins, Paper Covers Rocks");
+                MessageBox.Show(skin.PlayerWin + skin.reason2);
 
             }
             else if (playerChoice == "scissor" && CPUchoice == "paper")
@@ -172,20 +161,44 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show("Player Wins, Scissor cuts paper");
+                MessageBox.Show(skin.PlayerWin + skin.reason3);
 
             }
             else if(playerChoice == "none")
             {
-                MessageBox.Show("Make your Choice");
+                MessageBox.Show(skin.timerprompt);
             }
             else
             {
-                MessageBox.Show("Draw");
+                MessageBox.Show(skin.draw);
+                rounds -= 1;
+            }
+            if (rounds == 0)
+            {
+                btnRock.Enabled = false;
+                btnPaper.Enabled = false;
+                btnScissors.Enabled = false;
+
+                    if (playerwins > AIwins)
+                    {
+                        MessageBox.Show(skin.PlayerWin);
+                    }
+                    else if (playerwins == AIwins)
+                    {
+                        MessageBox.Show(skin.draw);
+                    }
+                    else
+                    {
+                        MessageBox.Show(skin.CPUWin);
+                    }
+
+                gameover = true;
 
             }
-
-            startNextRound();
+            else
+            {
+                startNextRound();
+            }
         }
 
         public void startNextRound()
@@ -193,7 +206,7 @@ namespace Rock_Paper_Scissors
 
             if (gameover)
             {
-
+                
 
 
                 return;
@@ -238,21 +251,29 @@ namespace Rock_Paper_Scissors
             {
                 case 0:
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+                    countDownTimer.Enabled = false;
                     break;
                 case 1:
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ja");
+                    countDownTimer.Enabled = false;
                     //Thread.CurrentThread.CurrentCulture = new System.Globalization.DateTimeFormatInfo("");
                     break;
                 case 2:
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh");
+                    countDownTimer.Enabled = false;
                     break;
                 case 3:
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es");
+                    countDownTimer.Enabled = false;
                     break;
             }
             this.Controls.Clear();
 
             InitializeComponent();
+            timerPerRound = 6;
+            countDownTimer.Enabled = true;
+            playerChoice = "none";
+            txtTime.Text = "5";
 
         }
 

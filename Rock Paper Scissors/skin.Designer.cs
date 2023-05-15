@@ -61,7 +61,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CPU.
+        ///   Looks up a localized string similar to CPU .
         /// </summary>
         internal static string Computer {
             get {
@@ -79,7 +79,16 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to player.
+        ///   Looks up a localized string similar to Draw.
+        /// </summary>
+        internal static string draw {
+            get {
+                return ResourceManager.GetString("draw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player .
         /// </summary>
         internal static string player {
             get {
@@ -97,11 +106,47 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Paper Covers Rocks.
+        /// </summary>
+        internal static string reason1 {
+            get {
+                return ResourceManager.GetString("reason1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rock Breaks Scissors.
+        /// </summary>
+        internal static string reason2 {
+            get {
+                return ResourceManager.GetString("reason2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scissor Cuts Paper.
+        /// </summary>
+        internal static string reason3 {
+            get {
+                return ResourceManager.GetString("reason3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rounds: .
         /// </summary>
         internal static string Rounds {
             get {
                 return ResourceManager.GetString("Rounds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Make Your Choice.
+        /// </summary>
+        internal static string timerprompt {
+            get {
+                return ResourceManager.GetString("timerprompt", resourceCulture);
             }
         }
     }
