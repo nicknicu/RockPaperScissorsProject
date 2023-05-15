@@ -102,7 +102,7 @@ namespace Rock_Paper_Scissors
                     }
                     else
                     {
-                        MessageBox.Show("CPU Wins This Game");
+                        MessageBox.Show(skin.CPUWin);
                     }
 
                     gameover = true;
