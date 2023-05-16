@@ -159,45 +159,45 @@
     <value>NoControl</value>
   </data>
   <data name="btnPaper.Text" xml:space="preserve">
-    <value>Paper</value>
+    <value>布</value>
   </data>
   <data name="btnRock.Text" xml:space="preserve">
-    <value>Rock</value>
+    <value>石头</value>
   </data>
   <data name="btnScissors.Text" xml:space="preserve">
-    <value>Scissors</value>
+    <value>剪子</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Player</value>
+    <value>玩家</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>CPU</value>
+    <value>中央处理器</value>
   </data>
   <data name="LangSelector.Items" xml:space="preserve">
-    <value>English</value>
+    <value>英文</value>
   </data>
   <data name="LangSelector.Items1" xml:space="preserve">
-    <value>Japanese</value>
+    <value>日文</value>
   </data>
   <data name="LangSelector.Items2" xml:space="preserve">
-    <value>Chinese</value>
+    <value>中文</value>
   </data>
   <data name="LangSelector.Items3" xml:space="preserve">
-    <value>Spanish</value>
+    <value>西班牙语</value>
   </data>
   <data name="LangSelectorLB.Text" xml:space="preserve">
-    <value>Language Selector</value>
+    <value>选择语言</value>
   </data>
   <data name="RestartBtn.Text" xml:space="preserve">
-    <value>Restart</value>
+    <value>重新开始</value>
   </data>
   <data name="roundsText.Text" xml:space="preserve">
-    <value>Rounds: 3</value>
+    <value>轮次: 3</value>
   </data>
   <data name="txtMessage.Text" xml:space="preserve">
-    <value>Player: 0 - CPU: 0</value>
+    <value>玩家： 0 比 中央处理器： 0</value>
   </data>
   <data name="txtTime.Text" xml:space="preserve">
-    <value>time</value>
+    <value>时间</value>
   </data>
 </root>
