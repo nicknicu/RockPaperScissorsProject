@@ -174,7 +174,7 @@
     <value>Jugador</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>CPU</value>
+    <value>CPU </value>
   </data>
   <data name="LangSelector.Items" xml:space="preserve">
     <value>Inglés</value>
