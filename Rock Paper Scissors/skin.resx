@@ -121,7 +121,7 @@
     <value>CPU </value>
   </data>
   <data name="CPUWin" xml:space="preserve">
-    <value>CPU Wins This Game</value>
+    <value>CPU Wins This Game.</value>
   </data>
   <data name="draw" xml:space="preserve">
     <value>Draw</value>
@@ -130,16 +130,16 @@
     <value>Player </value>
   </data>
   <data name="PlayerWin" xml:space="preserve">
-    <value>Player Wins This Game</value>
+    <value>Player Wins This Game.</value>
   </data>
   <data name="reason1" xml:space="preserve">
-    <value>Paper Covers Rocks</value>
+    <value> Paper Covers Rocks</value>
   </data>
   <data name="reason2" xml:space="preserve">
-    <value>Rock Breaks Scissors</value>
+    <value> Rock Breaks Scissors</value>
   </data>
   <data name="reason3" xml:space="preserve">
-    <value>Scissor Cuts Paper</value>
+    <value> Scissor Cuts Paper</value>
   </data>
   <data name="Rounds" xml:space="preserve">
     <value>Rounds: </value>

@@ -70,7 +70,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CPU Wins This Game.
+        ///   Looks up a localized string similar to CPU Wins This Game..
         /// </summary>
         internal static string CPUWin {
             get {
@@ -97,7 +97,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player Wins This Game.
+        ///   Looks up a localized string similar to Player Wins This Game..
         /// </summary>
         internal static string PlayerWin {
             get {
@@ -106,7 +106,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Paper Covers Rocks.
+        ///   Looks up a localized string similar to  Paper Covers Rocks.
         /// </summary>
         internal static string reason1 {
             get {
@@ -115,7 +115,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rock Breaks Scissors.
+        ///   Looks up a localized string similar to  Rock Breaks Scissors.
         /// </summary>
         internal static string reason2 {
             get {
@@ -124,7 +124,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Scissor Cuts Paper.
+        ///   Looks up a localized string similar to  Scissor Cuts Paper.
         /// </summary>
         internal static string reason3 {
             get {

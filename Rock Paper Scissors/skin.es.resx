@@ -121,7 +121,7 @@
     <value>CPU</value>
   </data>
   <data name="CPUWin" xml:space="preserve">
-    <value>CPU gana la ronda</value>
+    <value>CPU gana la ronda.</value>
   </data>
   <data name="draw" xml:space="preserve">
     <value>Empate</value>
@@ -130,16 +130,16 @@
     <value>Jugador </value>
   </data>
   <data name="PlayerWin" xml:space="preserve">
-    <value>El jugador gana la ronda</value>
+    <value>El jugador gana la ronda.</value>
   </data>
   <data name="reason1" xml:space="preserve">
-    <value>Papel cubria piedra</value>
+    <value> Papel cubria piedra</value>
   </data>
   <data name="reason2" xml:space="preserve">
-    <value>Piedra rompia tijeras</value>
+    <value> Piedra rompia tijeras</value>
   </data>
   <data name="reason3" xml:space="preserve">
-    <value>Tijeras corta papel</value>
+    <value> Tijeras corta papel</value>
   </data>
   <data name="Rounds" xml:space="preserve">
     <value>Rondas:</value>
