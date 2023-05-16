@@ -124,7 +124,7 @@
     <value>パソコンがこのゲームに勝つ</value>
   </data>
   <data name="Draw" xml:space="preserve">
-    <value />
+    <value>引き分け</value>
   </data>
   <data name="player" xml:space="preserve">
     <value>プレイヤー: </value>
@@ -133,18 +133,21 @@
     <value>プレイヤーがこのゲームに勝つ</value>
   </data>
   <data name="reason1" xml:space="preserve">
-    <value />
+    <value>パーはグーに勝つ</value>
   </data>
   <data name="reason2" xml:space="preserve">
-    <value />
+    <value>グーはチョキに勝つ</value>
   </data>
   <data name="reason3" xml:space="preserve">
-    <value />
+    <value>チョキはパーに勝つ</value>
   </data>
   <data name="Rounds" xml:space="preserve">
     <value>ラウンド: </value>
   </data>
-  <data name="timerprompt" xml:space="preserve">
+  <data name="String" xml:space="preserve">
     <value />
+  </data>
+  <data name="timerprompt" xml:space="preserve">
+    <value>洗濯を選んでください</value>
   </data>
 </root>

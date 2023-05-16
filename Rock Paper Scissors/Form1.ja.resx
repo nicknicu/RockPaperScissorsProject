@@ -192,12 +192,12 @@
     <value>言語選択</value>
   </data>
   <data name="roundsText.Text" xml:space="preserve">
-    <value>Rounds: 3</value>
+    <value>ルアンド: 3</value>
   </data>
   <data name="txtMessage.Text" xml:space="preserve">
-    <value>Player: 0 - CPU: 0</value>
+    <value>プレイヤー: 0 - パソコン: 0</value>
   </data>
   <data name="txtTime.Text" xml:space="preserve">
-    <value>time</value>
+    <value>時間</value>
   </data>
 </root>
