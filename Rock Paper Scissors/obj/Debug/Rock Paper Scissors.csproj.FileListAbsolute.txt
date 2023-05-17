@@ -64,3 +64,5 @@ C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj
 C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.ja.resources
 C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\es\Rock Paper Scissors.resources.dll
 C:\Users\mprim\Documents\GitHub\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\zh\Rock Paper Scissors.resources.dll
+C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.zh.resources
+C:\Users\Mi200\Source\Repos\nicknicu\RockPaperScissorsProject\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.skin.es.resources
