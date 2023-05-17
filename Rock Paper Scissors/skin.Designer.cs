@@ -142,7 +142,7 @@ namespace Rock_Paper_Scissors {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Make Your Choice.
+        ///   Looks up a localized string similar to You took too much time so we chose for you..
         /// </summary>
         internal static string timerprompt {
             get {

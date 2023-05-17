@@ -143,17 +143,14 @@
   <data name="&gt;&gt;picCPU.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;roundsText.Name" xml:space="preserve">
-    <value>roundsText</value>
+  <data name="&gt;&gt;RestartBtn.Name" xml:space="preserve">
+    <value>RestartBtn</value>
   </data>
   <data name="btnRock.Text" xml:space="preserve">
     <value>Rock</value>
   </data>
   <data name="&gt;&gt;LangSelector.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="picCPU.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -201,11 +198,14 @@
   <data name="&gt;&gt;RestartBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;roundsText.Name" xml:space="preserve">
+    <value>roundsText</value>
+  </data>
   <data name="btnPaper.Location" type="System.Drawing.Point, System.Drawing">
     <value>48, 153</value>
   </data>
-  <data name="&gt;&gt;txtMessage.Name" xml:space="preserve">
-    <value>txtMessage</value>
+  <data name="btnRock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 96</value>
   </data>
   <data name="txtMessage.Location" type="System.Drawing.Point, System.Drawing">
     <value>387, 96</value>
@@ -237,11 +237,14 @@
   <data name="LangSelectorLB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="roundsText.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;RestartBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btnScissors.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtMessage.Name" xml:space="preserve">
+    <value>txtMessage</value>
   </data>
   <data name="RestartBtn.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -309,8 +312,8 @@
   <data name="picCPU.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;RestartBtn.Name" xml:space="preserve">
-    <value>RestartBtn</value>
+  <data name="roundsText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -330,9 +333,6 @@
   <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>450, 186</value>
   </data>
-  <data name="picCPU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>599, 84</value>
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 402</value>
   </data>
@@ -342,8 +342,8 @@
   <data name="roundsText.Location" type="System.Drawing.Point, System.Drawing">
     <value>423, 311</value>
   </data>
-  <data name="btnRock.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 96</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtTime.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -362,9 +362,6 @@
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;RestartBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="&gt;&gt;roundsText.Parent" xml:space="preserve">
     <value>$this</value>
@@ -426,8 +423,8 @@
   <data name="txtTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;btnPaper.Name" xml:space="preserve">
-    <value>btnPaper</value>
+  <data name="btnRock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;btnScissors.Parent" xml:space="preserve">
     <value>$this</value>
@@ -450,11 +447,14 @@
   <data name="LangSelectorLB.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;btnPaper.Name" xml:space="preserve">
+    <value>btnPaper</value>
+  </data>
   <data name="&gt;&gt;roundsText.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="btnRock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="picCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 84</value>
   </data>
   <data name="RestartBtn.Text" xml:space="preserve">
     <value>Restart</value>
@@ -505,7 +505,7 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>zh</value>
+    <value>ja</value>
   </metadata>
   <metadata name="countDownTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

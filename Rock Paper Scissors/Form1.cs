@@ -142,7 +142,7 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show(skin.PlayerWin + skin.reason1);
+                MessageBox.Show(skin.PlayerWin + skin.reason3);
 
             }
             else if (playerChoice == "paper" && CPUchoice == "rock")
@@ -161,12 +161,29 @@ namespace Rock_Paper_Scissors
 
                 rounds -= 1;
 
-                MessageBox.Show(skin.PlayerWin + skin.reason3);
+                MessageBox.Show(skin.PlayerWin + skin.reason1);
 
             }
             else if(playerChoice == "none")
             {
+                
+                randomNumber = rnd.Next(0, CPUchoiceList.Length);
+                playerChoice = CPUchoiceList[randomNumber];
+                switch (playerChoice)
+                {
+                    case "rock":
+                        picPlayer.Image = Properties.Resources.rock;
+                        break;
+                    case "paper":
+                        picPlayer.Image = Properties.Resources.paper;
+                        break;
+                    case "scissor":
+                        picPlayer.Image = Properties.Resources.scissors;
+                        break;
+                }
                 MessageBox.Show(skin.timerprompt);
+                checkGame();
+
             }
             else
             {
@@ -178,8 +195,9 @@ namespace Rock_Paper_Scissors
                 btnRock.Enabled = false;
                 btnPaper.Enabled = false;
                 btnScissors.Enabled = false;
+                txtMessage.Text = skin.player + playerwins + " - " + skin.Computer + AIwins;
 
-                    if (playerwins > AIwins)
+                 if (playerwins > AIwins)
                     {
                         MessageBox.Show(skin.PlayerWin);
                     }
@@ -228,6 +246,9 @@ namespace Rock_Paper_Scissors
             AIwins = 0;
             rounds = 3;
             txtMessage.Text = skin.player + playerwins + " - " + skin.Computer + AIwins;
+            btnRock.Enabled = true;
+            btnPaper.Enabled = true;
+            btnScissors.Enabled = true;
 
             playerChoice = "none";
             txtTime.Text = "5";

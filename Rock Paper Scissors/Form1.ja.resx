@@ -141,7 +141,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtMessage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 95</value>
+    <value>377, 84</value>
   </data>
   <data name="txtMessage.Size" type="System.Drawing.Size, System.Drawing">
     <value>215, 24</value>
@@ -152,6 +152,9 @@
   <data name="roundsText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="roundsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 289</value>
+  </data>
   <data name="roundsText.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 24</value>
   </data>
@@ -160,6 +163,9 @@
   </data>
   <data name="txtTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 167</value>
   </data>
   <data name="txtTime.Text" xml:space="preserve">
     <value>時間</value>
@@ -197,13 +203,22 @@
   <data name="picCPU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="picCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 84</value>
+  </data>
   <data name="picPlayer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="picPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 84</value>
   </data>
   <data name="LangSelectorLB.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 13</value>
   </data>
   <data name="LangSelectorLB.Text" xml:space="preserve">
     <value>言語選択</value>
+  </data>
+  <data name="RestartBtn.Text" xml:space="preserve">
+    <value>リスタート</value>
   </data>
 </root>

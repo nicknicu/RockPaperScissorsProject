@@ -145,6 +145,6 @@
     <value>Rounds: </value>
   </data>
   <data name="timerprompt" xml:space="preserve">
-    <value>Make Your Choice</value>
+    <value>You took too much time so we chose for you.</value>
   </data>
 </root>
