@@ -145,6 +145,6 @@
     <value>轮次: </value>
   </data>
   <data name="timerprompt" xml:space="preserve">
-    <value>请选择</value>
+    <value>你太忙了，电脑为你选了。</value>
   </data>
 </root>
